@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: lightyellow;
+}
+
+header {
+  background-color: darkslategrey;
+  color: ghostwhite;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 250px;
+
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.item-details h2 {
+  font-size: 24px;
+  margin: auto;
+}
+
+.item-details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.item-details button {
+  background-color: dimgrey;
+  color: ghostwhite;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.item-details button:hover {
+  background-color: darkslategrey;
+}
+.second-item {
+  position: relative;
+
+}
+.second-item .price {
+  position: absolute;
+  bottom: 2.35em;
+
+}
+.second-item .delete-btn{
+  position: relative;
+  top: 8.65em;
+}
+
+
+.total {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.total p {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.order-btn {
+  background-color: dimgrey;
+  color: ghostwhite;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: auto;
+}
+
+.order-btn:hover {
+  background-color: salmon;
+}
+
+
+
+
+
+
